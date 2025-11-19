@@ -113,7 +113,7 @@ or WinActive("ahk_exe Code.exe")
 !+p:: Send("^+p")
 
 ; Insert line before with ⌘ + alt + enter
-!#Enter:: Send("^!Enter")
+!#Enter:: Send("^!{Enter}")
 
 ; Git
 ; Git commit with ⌘ + k
