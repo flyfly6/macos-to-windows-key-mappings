@@ -87,8 +87,8 @@ Lwin & Right:: Send("!{Right}")
 ; !+a::MouseMove (MOUSE_OFFSET * 4 * -1), 0, 50, "R"
 ; !+d::MouseMove MOUSE_OFFSET * 4, 0, 50, "R"
 
-!r:: Click "Left"
-!t:: Click "Right"
+#r:: Click "Left"
+#t:: Click "Right"
 
 ; --------------------------------------------------------------
 ; Include .ahk file

@@ -13,10 +13,10 @@ or WinActive("ahk_exe Lark.exe")
 or WinActive("ahk_exe DingTalk.exe")
 
 ; Send message with ⌘ + enter
-#Enter:: Send("^{Enter}")
+!Enter:: Send("^{Enter}")
 
 ; Minimize window with ⌘ + w
-#w:: WinMinimize("a")
+!w:: WinMinimize("a")
 #HotIf
 
 Logger.Info("IM script loaded: " A_ScriptName, "IM")
