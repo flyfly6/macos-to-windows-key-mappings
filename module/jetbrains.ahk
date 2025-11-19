@@ -112,6 +112,9 @@ or WinActive("ahk_exe Code.exe")
 ; Restore tab with ⌘ + shift + t
 !+p:: Send("^+p")
 
+; Insert line before with ⌘ + alt + enter
+!#Enter:: Send("^!Enter")
+
 ; Git
 ; Git commit with ⌘ + k
 !k:: Send("^k")
