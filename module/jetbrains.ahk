@@ -10,7 +10,7 @@ or WinActive("ahk_exe datagrip64.exe")
 or WinActive("ahk_exe webstorm64.exe")
 or WinActive("ahk_exe Code.exe")
 
-; Auto-completion current line and return new line
+; Auto-completion current line and return new line with ⌘ + shift + enter
 !+Enter::^+Enter
 
 ; Globally find with ⌘ + shift + f
@@ -112,8 +112,8 @@ or WinActive("ahk_exe Code.exe")
 ; Restore tab with ⌘ + shift + t
 !+p:: Send("^+p")
 
-; Insert line before with ⌘ + alt + enter
-!#Enter:: Send("^!{Enter}")
+; Insert line before with ⌘ + CTRL + alt + enter
+^!#Enter:: Send("^!{Enter}")
 
 ; Git
 ; Git commit with ⌘ + k

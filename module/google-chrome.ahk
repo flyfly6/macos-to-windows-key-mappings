@@ -71,6 +71,7 @@ CheckChromeFullScreen() {
 SetTimer(CheckChromeFullScreen, 500)
 
 #HotIf WinActive("ahk_exe chrome.exe")
+or WinActive("ahk_exe msedge.exe")
 
 ; Show Web Developer Tools with ⌘ + alt + i
 #!i:: Send("{F12}")

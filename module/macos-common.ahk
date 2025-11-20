@@ -41,7 +41,7 @@
 !y:: Send("^y")
 
 ; Redo with ⌘ + shift + z
-#+z:: Send("^+z")
+!+z:: Send("^+z")
 
 ; New tab with ⌘ + t
 !t:: Send("^t")
