@@ -31,6 +31,9 @@ or WinActive("ahk_exe warp.exe")
 
 ; Open Command Prompt with ⌘ + 4
 !4:: Send("^+4")
+
+; Open link with ⌘ + LeftClick
+!LButton:: Send("^{LButton}")
 #HotIf
 
 Logger.Info("Windows Terminal script loaded: " A_ScriptName, "Windows Terminal")
